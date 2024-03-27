@@ -1,0 +1,70 @@
+selector{property: value }
+
+
+h1 {
+color:blue; 
+font-weight:normal;font-size: 36pt;
+}
+
+h3 {
+color:blue; 
+font-weight:normal;font-size: 24pt;
+}
+
+nav{
+	background-color:#ff9400;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	color: #888;
+	display: block;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width:100%;
+	
+}
+
+nav ul{
+	margin:2px;
+	padding:2px;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type:none;
+	
+}
+
+nav ul li a {
+	color:white;
+	display: block;
+	line-height:56px;
+	padding: 0 24px;
+	text-decoration: none;
+	
+	
+	
+	
+	
+
+}
+
+nav ul li :hover{
+	background-color:rgb(40, 44, 47);	
+}
+
+nav ul li:hover a{
+	color:rgb(225, 255, 255);
+}
+
+.section{
+	padding:20px;
+}
+
+footer{
+	text-align:center;
+	background-color:black;
+	padding:20px;
+	color:white;
+	text-shadow:0.5px 0.5px orange;
+}
